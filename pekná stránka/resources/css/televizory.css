@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kontajner {
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/uvodna_fotka.jpg);
+    background-size: contain;
+    
+
+}
+
+.navigacny_panel {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+ }
+
+ 
+.logo_ziarovka {
+    width: 50px;
+    cursor: pointer;
+    
+
+     }
+
+     
+.logo_menu {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+      }
+
+
+      nav {
+        flex: 1;
+        text-align: right;
+    }
+    
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 60px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: azure;
+        font-size: 15px;
+    }
+
+    .zoznam {
+        transition: transform 0.5s;
+    }
+    
+    .zoznam:hover {
+        transform: translateY(-5px);
+    }
+    
+    .meno {
+        color:azure ;
+        padding-left: 7px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    
+    .riadok {
+        display: flex;
+        height: 88%;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .stlpec {
+        flex-basis: 50%;
+        padding-left: 100px;
+    }
+
+    .kont1 {
+        display: flex;
+    }
+
+    button {
+        margin-left: 450px;
+        color: black;
+    
+        cursor: pointer;
+        display: inline-block;
+
+        width: 250px;
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        padding: 5px 1px 5px 1px;
+        background: azure;
+        border: 0;
+        border-radius: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+        transition: 0.5s;
+        transform: translateY(-5px);
+    }
+    .box {
+        margin-top: 33px;
+        background-color: rgb(0, 129, 124);
+        width: 1275px;
+        height: 400px;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: white
+        
+    }
+
+    h2 {
+        color:  white;
+        text-shadow: 15px;
+        
+    }
+
